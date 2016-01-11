@@ -99,6 +99,7 @@ var addUser = function(name, edges){
   if(!checkIfUsernameExists(name) && !checkIfNodeNameExists(name) && !checkIfEdgeNameExists(name)){
     var time = Firebase.ServerValue.TIMESTAMP;
     refs.users.update(objify(name, {
+      "name" : name,
       "id" : time,
       "edges" : {
         "to" : {},

@@ -1,2 +1,2 @@
 # Web-of-Hunger
-A Graph of Canabalistic Desires.
+A Graph of Cannibalistic Desires.
